@@ -1,7 +1,7 @@
 /* ====== À MODIFIER : tes infos ====== */
 const SITE = {
   name: "Sébastien ZwiB Hô",
-  tagline: " travaux personel de menuiserie",
+  tagline: " travaux personnels de menuiserie",
   contactLabel: "zwib.ho@gmail.com   06 03 94 26 87",
   contactLink: "mailto:zwib.ho@gmail.com"
 };
@@ -10,7 +10,7 @@ const SITE = {
    et indique leur nom ici (1 ou 2 photos max). Tant qu'une photo
    n'existe pas, un cadre gris s'affiche à la place. */
 const PIECES = [
-  { title: "table de salon",  meta: "Bois (plancher recuperé dansune grange) / métal, 2014", desc: "table a manger 2mx1m", photos: ["images/01-a.jpg", "images/01-b.jpg"] },
+  { title: "table de salon",  meta: "Bois (plancher recuperé dans une grange) / métal, 2014", desc: "table a manger 2mx1m", photos: ["images/01-a.jpg", "images/01-b.jpg"] },
   { title: "luminaire Nuage",  meta: "Bois, 2015", desc: "Petit luminaire decoratif", photos: ["images/02-a.jpg", "images/02-b.jpg"] },
   { title: "Bureau",  meta: "Contreplaqué, 2022", desc: "Bureau avec casiers de rangement et cache pour cable ordinateur, sans clou ni vis", photos: ["images/03-a.jpg", "images/03-b.jpg"] },
   { title: "Table Basse",  meta: "Palette, 2021", desc: "juste de la recup.", photos: ["images/04-a.jpg", "images/04-b.jpg"] },
