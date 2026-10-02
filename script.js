@@ -83,9 +83,69 @@ function route() {
 }
 addEventListener("hashchange", route);
 addEventListener("keydown", e => {
-  if ($("view").hidden) return;
+  if ($("view").hidden || !$("zoom").hidden) return;
   if (e.key === "Escape") location.hash = "";
   if (e.key === "ArrowLeft") location.hash = $("prev").hash;
   if (e.key === "ArrowRight") location.hash = $("next").hash;
 });
 route();
+/* ====== Zoom photo ====== */
+const zoom = $("zoom"), zimg = $("zoom-img");
+let sc = 1, tx = 0, ty = 0, pinch = 0, travel = 0;
+const pts = new Map();
+
+function apply() {
+  const bx = zimg.clientWidth * sc / 2, by = zimg.clientHeight * sc / 2;
+  tx = Math.max(-bx, Math.min(bx, tx));
+  ty = Math.max(-by, Math.min(by, ty));
+  zimg.style.transform = `translate(${tx}px,${ty}px) scale(${sc})`;
+}
+function zoomAt(x, y, ns) {
+  ns = Math.min(6, Math.max(1, ns));
+  const r = zoom.getBoundingClientRect();
+  const px = x - (r.left + r.width / 2), py = y - (r.top + r.height / 2);
+  const k = ns / sc;
+  tx = px - (px - tx) * k;
+  ty = py - (py - ty) * k;
+  sc = ns;
+  if (sc === 1) tx = ty = 0;
+  apply();
+}
+function openZoom(src, alt) {
+  sc = 1; tx = ty = 0; apply();
+  zimg.src = src; zimg.alt = alt;
+  zoom.hidden = false;
+}
+function closeZoom() { zoom.hidden = true; zimg.removeAttribute("src"); }
+const two = () => { const [a, b] = [...pts.values()]; return { d: Math.hypot(a.x - b.x, a.y - b.y), x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; };
+
+$("photos").addEventListener("click", e => {
+  const i = e.target.closest("img");
+  if (i) openZoom(i.src, i.alt);
+});
+zoom.addEventListener("wheel", e => {
+  e.preventDefault();
+  zoomAt(e.clientX, e.clientY, sc * (e.deltaY < 0 ? 1.2 : 1 / 1.2));
+}, { passive: false });
+zoom.addEventListener("pointerdown", e => {
+  if (e.target.closest("button")) return;
+  pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  travel = 0;
+  pinch = pts.size === 2 ? two().d : 0;
+});
+zoom.addEventListener("pointermove", e => {
+  const p = pts.get(e.pointerId);
+  if (!p) return;
+  const dx = e.clientX - p.x, dy = e.clientY - p.y;
+  travel += Math.abs(dx) + Math.abs(dy);
+  p.x = e.clientX; p.y = e.clientY;
+  if (pts.size === 2) {
+    const t = two();
+    if (pinch) zoomAt(t.x, t.y, sc * t.d / pinch);
+    pinch = t.d; travel = 99;
+  } else if (sc > 1) { tx += dx; ty += dy; apply(); }
+});
+["pointerup", "pointercancel"].forEach(ev => zoom.addEventListener(ev, e => { pts.delete(e.pointerId); pinch = 0; }));
+zoom.addEventListener("dblclick", e => { if (e.target === zimg) zoomAt(e.clientX, e.clientY, sc > 1 ? 1 : 2.5); });
+zoom.addEventListener("click", e => { if (e.target !== zimg && travel < 6) closeZoom(); });
+addEventListener("keydown", e => { if (!zoom.hidden && e.key === "Escape") closeZoom(); });
