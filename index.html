@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book</title>
+<meta name="description" content="Book de créations">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1 id="name"></h1>
+  <p id="tagline"></p>
+</header>
+
+<main>
+  <ul class="grid" id="grid"></ul>
+</main>
+
+<footer class="foot">
+  <a id="contact" href="#"></a>
+</footer>
+
+<section class="view" id="view" hidden aria-modal="true" role="dialog">
+  <div class="bar">
+    <a class="back" href="#">Retour au book</a>
+    <div class="pager">
+      <a id="prev" href="#" aria-label="Pièce précédente">Précédente</a>
+      <a id="next" href="#" aria-label="Pièce suivante">Suivante</a>
+    </div>
+  </div>
+  <div class="detail">
+    <div class="photos" id="photos"></div>
+    <div class="info">
+      <h2 id="v-title"></h2>
+      <p id="v-meta" class="meta"></p>
+      <p id="v-desc"></p>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
