@@ -20,7 +20,7 @@ const PIECES = [
   { title: "Verriere",  meta: "Bois/verre, 2022", desc: "Verriere sur mesure", photos: ["images/08-a.jpg", "images/08-b.jpg"] },
   { title: "Ilot centrale",  meta: "Planche de coffrage, 2021", desc: "Creation d un ilot centrale suspendu a partir de planche de coffrage 2mx1m", photos: ["images/09-a.jpg", "images/09-b.jpg"] },
   { title: "support pour filet", meta: "bois, 2021", desc: "Creation de tremie et cerclage en bois pour accroche de filet decoratif", photos: ["images/10-a.jpg", "images/10-b.jpg"] },
-/*  { title: "Banc", meta: "bois, 2021", desc: "un banc", photos: ["images/11-a.jpg", "images/11-b.jpg"] },
+/*  { title: "Banc", meta: "bois, 2021", desc: "un banc", photos: ["images/11-a.jpg", "images/11-b.jpg"] }, /
 ];
 /* ====== fin de la zone à modifier ====== */
 
