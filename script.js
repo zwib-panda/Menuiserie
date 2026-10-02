@@ -1,25 +1,26 @@
 /* ====== À MODIFIER : tes infos ====== */
 const SITE = {
-  name: "Ton nom",
-  tagline: "Une ligne pour te présenter : ce que tu fais, comment, avec quoi.",
-  contactLabel: "contact@exemple.fr",
-  contactLink: "mailto:contact@exemple.fr"
+  name: "Sébastien ZwiB Hô",
+  tagline: " travaux personel de menuiserie",
+  contactLabel: "zwib.ho@gmail.com   06 03 94 26 87",
+  contactLink: "mailto:zwib.ho@gmail.com"
 };
 
 /* Une entrée par pièce. Dépose les photos dans le dossier images/
    et indique leur nom ici (1 ou 2 photos max). Tant qu'une photo
    n'existe pas, un cadre gris s'affiche à la place. */
 const PIECES = [
-  { title: "Pièce 1",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/01-a.jpg", "images/01-b.jpg"] },
-  { title: "Pièce 2",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/02-a.jpg", "images/02-b.jpg"] },
-  { title: "Pièce 3",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/03-a.jpg", "images/03-b.jpg"] },
-  { title: "Pièce 4",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/04-a.jpg", "images/04-b.jpg"] },
-  { title: "Pièce 5",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/05-a.jpg", "images/05-b.jpg"] },
-  { title: "Pièce 6",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/06-a.jpg", "images/06-b.jpg"] },
-  { title: "Pièce 7",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/07-a.jpg", "images/07-b.jpg"] },
-  { title: "Pièce 8",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/08-a.jpg", "images/08-b.jpg"] },
-  { title: "Pièce 9",  meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/09-a.jpg", "images/09-b.jpg"] },
-  { title: "Pièce 10", meta: "Matière, 2026", desc: "Courte description de la pièce.", photos: ["images/10-a.jpg", "images/10-b.jpg"] }
+  { title: "table de salon",  meta: "Bois (plancher recuperé dansune grange) / métal, 2014", desc: "table a manger 2mx1m", photos: ["images/01-a.jpg", "images/01-b.jpg"] },
+  { title: "luminaire Nuage",  meta: "Bois, 2015", desc: "Petit luminaire decoratif", photos: ["images/02-a.jpg", "images/02-b.jpg"] },
+  { title: "Bureau",  meta: "Contreplaqué, 2022", desc: "Bureau avec casiers de rangement et cache pour cable ordinateur, sans clou ni vis", photos: ["images/03-a.jpg", "images/03-b.jpg"] },
+  { title: "Table Basse",  meta: "Palette, 2021", desc: "juste de la recup.", photos: ["images/04-a.jpg", "images/04-b.jpg"] },
+  { title: "lit cabane",  meta: "Bois, 2015", desc: "Lit double sur cabane pour les enfants", photos: ["images/05-a.jpg", "images/05-b.jpg"] },
+  { title: "lit cabane V2",  meta: "Bois, 2017", desc: "Lit double sur cabane pour les enfants, separation des lit apres demenagement", photos: ["images/06-a.jpg", "images/06-b.jpg"] },
+  { title: "Jardinieres",  meta: "Bois, 2025", desc: "Jardinière permaculture avec réserve d’eau intégrée", photos: ["images/07-a.jpg", "images/07-b.jpg"] },
+  { title: "Verriere",  meta: "Bois/verre, 2022", desc: "Verriere sur mesure", photos: ["images/08-a.jpg", "images/08-b.jpg"] },
+  { title: "Ilot centrale",  meta: "Planche de coffrage, 2021", desc: "Creation d un ilot centrale suspendu a partir de planche de coffrage 2mx1m", photos: ["images/09-a.jpg", "images/09-b.jpg"] },
+  { title: "support pour filet", meta: "bois, 2021", desc: "Creation de tremie et cerclage en bois pour accroche de filet decoratif", photos: ["images/10-a.jpg", "images/10-b.jpg"] },
+/*  { title: "Banc", meta: "bois, 2021", desc: "un banc", photos: ["images/11-a.jpg", "images/11-b.jpg"] },
 ];
 /* ====== fin de la zone à modifier ====== */
 
