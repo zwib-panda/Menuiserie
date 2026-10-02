@@ -18,9 +18,11 @@ const PIECES = [
   { title: "lit cabane V2",  meta: "Bois, 2017", desc: "Lit double sur cabane pour les enfants, separation des lit apres demenagement", photos: ["images/06-a.jpg", "images/06-b.jpg"] },
   { title: "Jardinieres",  meta: "Bois, 2025", desc: "Jardinière permaculture avec réserve d’eau intégrée", photos: ["images/07-a.jpg", "images/07-b.jpg"] },
   { title: "Verriere",  meta: "Bois/verre, 2022", desc: "Verriere sur mesure", photos: ["images/08-a.jpg", "images/08-b.jpg"] },
-  { title: "Ilot centrale",  meta: "Planche de coffrage, 2021", desc: "Creation d un ilot centrale suspendu a partir de planche de coffrage 2mx1m", photos: ["images/09-a.jpg", "images/09-b.jpg"] },
+  { title: "Ilot centrale",  meta: "Planche de coffrage, 2021", desc: "Creation d un ilot centrale suspendu a partir de planches de coffrage 2mx1m (accessoirement instalation complete de la cuisine)", photos: ["images/09-a.jpg", "images/09-b.jpg"] },
   { title: "support pour filet", meta: "bois, 2021", desc: "Creation de tremie et cerclage en bois pour accroche de filet decoratif", photos: ["images/10-a.jpg", "images/10-b.jpg"] },
   { title: "Banc", meta: "bois, 2021", desc: "un banc", photos: ["images/11-a.jpg", "images/11-b.jpg"] }, 
+  { title: "Ikea Hack", meta: "bois/canage, 2021", desc: "Modification de portes ikea pour decoration en cannage", photos: ["images/12-a.jpg", "images/12-b.jpg"] }, 
+  { title: "Manche de Couteau", meta: "bois/metal, 2026", desc: "forge d'un couteau et creation du manche en bois d'olivier", photos: ["images/13-a.jpg", "images/13-b.jpg"] }, 
 ];
 /* ====== fin de la zone à modifier ====== */
 
