@@ -26,7 +26,7 @@ const PIECES = [
   { title: "Poulailler", meta: "bois,PVC, 2021", desc: "Petit poulailler en mode recup, avec acces facile pour nettoyage et recuperation des oeufs", photos: ["images/poulailler01.png","images/poulailler02.png"] }, 
   { title: "Manche de Couteau", meta: "bois/metal, 2026", desc: "forge d'un couteau et creation du manche en bois d'olivier", photos: ["images/couteau01.jpg", "images/couteau02.jpg"] }, 
   { title: "jouet Poussette", meta: "bois/tissus, 2014", desc: "Creation d'une poussette a doudous, normalement les peluches...", photos: ["images/poussette02.png", "images/poussette03.png", "images/poussette01.png"] }, 
-  { title: "Amenagement Diverse", meta: "bois", desc: "Divers aménagements: entrée tablette, etagère Salle de bain, étagere, cadre porte guitare, assises brasero et terrain de petanque, tablette WC...", photos: ["images/amenagement01.jpg", "images/amenagement02.jpg", "images/amenagement03.jpg", "images/amenagement04.jpg", "images/amenagement05.jpg", "images/amenagement06.jpg", "images/amenagement07.jpg"] }, 
+  { title: "Amenagement Diverse", meta: "bois", desc: "Divers aménagements: entrée tablette, etagère Salle de bain, étagere, cadre porte guitare, assises brasero et terrain de petanque, tablette WC...", photos: ["images/amenagement01.jpg", "images/amenagement02.jpg", "images/amenagement03.jpg", "images/amenagement04.jpg", "images/amenagement05.jpg", "images/amenagement06.jpg"] }, 
 ];
 /* ====== fin de la zone à modifier ====== */
 
