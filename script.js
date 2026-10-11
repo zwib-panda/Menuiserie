@@ -16,12 +16,14 @@ const PIECES = [
   { title: "Table Basse",  meta: "Palette, 2021", desc: "juste de la recup.", photos: ["images/04-a.jpg", "images/04-b.jpg"] },
   { title: "lit cabane",  meta: "Bois, 2015", desc: "Lit double sur cabane pour les enfants", photos: ["images/lit_01.png", "images/lit_02.png"] },
   { title: "Jardinieres",  meta: "Bois, 2025", desc: "Jardinière permaculture avec réserve d’eau intégrée", photos: ["images/07-a.jpg", "images/07-b.jpg"] },
-  { title: "Verriere",  meta: "Bois/verre, 2022", desc: "Verriere sur mesure", photos: ["images/verriere01.png", "images/verriere02.png"] },
-  { title: "Ilot centrale",  meta: "Planche de coffrage, 2021", desc: "Creation d un ilot centrale suspendu a partir de planches de coffrage 2mx1m (accessoirement instalation complete de la cuisine)", photos: ["images/cuisinBres04.png", "images/cuisinBres03.png","images/cuisinBres02.png","images/cuisinBres01.png"] },
+  { title: "Cuisine",  meta: "Bois,metal, 2013", desc: "Renovation complete de cuisine, plan de travail en bois, cersusage des portes, et verrière en metal", photos: ["images/cuisinecachan04.png","images/cuisinecachan01.png","images/cuisinecachan02.png","images/cuisinecachan03.png"] },
+  { title: "verrière",  meta: "Bois/verre, 2022", desc: "verrière sur mesure", photos: ["images/verriere01.png", "images/verriere02.png"] },
+  { title: "Ilot centrale",  meta: "Planche de coffrage, 2021", desc: "Creation d un ilot centrale suspendu a partir de planches de coffrage 2mx1m (accessoirement conception et instalation complete de la cuisine)", photos: ["images/cuisinBres04.png", "images/cuisinBres03.png","images/cuisinBres02.png","images/cuisinBres01.png"] },
   { title: "support pour filet", meta: "bois, 2021", desc: "Creation de tremie et cerclage en bois pour accroche de filet decoratif", photos: ["images/filet01.png","images/filet02.png","images/filet03.png","images/filet04.png"] },
   { title: "Banc", meta: "bois, 2021", desc: "un banc", photos: ["images/11-a.jpg", "images/11-b.jpg"] }, 
   { title: "Ikea Hack", meta: "bois/canage, 2021", desc: "Modification de portes ikea pour decoration en cannage", photos: ["images/canage01.png"] }, 
   { title: "Manche de Couteau", meta: "bois/metal, 2026", desc: "forge d'un couteau et creation du manche en bois d'olivier", photos: ["images/13-a.jpg", "images/13-b.jpg"] }, 
+  { title: "jouet Poussette", meta: "bois/tissus, 2014", desc: "Creation d'une poussette a doudous, normalement les peluches...", photos: ["images/poussette02.png", "images/poussette03.png", "images/poussette01.png"] }, 
 ];
 /* ====== fin de la zone à modifier ====== */
 
