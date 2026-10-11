@@ -12,7 +12,7 @@ const SITE = {
 const PIECES = [
   { title: "table de salon",  meta: "Bois (plancher recuperé dans une grange) / métal, 2014", desc: "table a manger 2mx1m", photos: ["images/table01.png","images/table02.png","images/table03.png"] },
   { title: "luminaire Nuage",  meta: "Bois, 2015", desc: "Petit luminaire decoratif", photos: ["images/nuage01.jpg", "images/nuage02.jpg"] },
-  { title: "Bureau",  meta: "Contreplaqué, 2022", desc: "Bureau avec casiers de rangement et cache pour cable ordinateur, sans clou ni vis", photos: ["images/03-a.jpg", "images/03-b.jpg"] },
+  { title: "Bureau",  meta: "Contreplaqué, 2022", desc: "Bureau avec casiers de rangement et cache pour cable ordinateur, sans clou ni vis", photos: ["images/bureau01.jpg", "images/bureau02.jpg","images/bureau03.jpg","images/bureau05.jpg","images/bureau04.jpg"] },
   { title: "Table Basse",  meta: "Palette, 2021", desc: "juste de la recup.", photos: ["images/04-a.jpg", "images/04-b.jpg"] },
   { title: "lit cabane",  meta: "Bois, 2015", desc: "Lit double sur cabane pour les enfants", photos: ["images/lit_01.png", "images/lit_02.png"] },
   { title: "Jardinieres",  meta: "Bois, 2025", desc: "Jardinière permaculture avec réserve d’eau intégrée", photos: ["images/07-a.jpg", "images/07-b.jpg"] },
@@ -20,11 +20,13 @@ const PIECES = [
   { title: "verrière",  meta: "Bois/verre, 2022", desc: "verrière sur mesure", photos: ["images/verriere01.jpg", "images/verriere02.jpg"] },
   { title: "Ilot centrale",  meta: "Planche de coffrage, 2021", desc: "Creation d un ilot centrale suspendu a partir de planches de coffrage 2mx1m (accessoirement conception et instalation complete de la cuisine)", photos: ["images/cuisinBres04.jpg", "images/cuisinBres03.jpg","images/cuisinBres02.JPG","images/cuisinBres01.png"] },
   { title: "support pour filet", meta: "bois, 2021", desc: "Creation de tremie et cerclage en bois pour accroche de filet decoratif", photos: ["images/filet01.png","images/filet02.png","images/filet03.png","images/filet04.png"] },
-  { title: "Banc", meta: "bois, 2021", desc: "un banc", photos: ["images/11-a.jpg", "images/11-b.jpg"] }, 
+  { title: "Tables de chevet", meta: "bois, 2021", desc: "petites table de chevet dans une ambiance zen", photos: ["images/chevet01.jpg", "images/chevet02.jpg", "images/chevet03.jpg"] }, 
   { title: "Porte Coulissante", meta: "bois, 2021", desc: "Creation d une porte coulissante legere style grange pour une chambre", photos: ["images/porte01.png"] }, 
   { title: "Ikea Hack", meta: "bois/canage, 2021", desc: "Modification de portes ikea pour decoration en cannage", photos: ["images/canage01.png"] }, 
+  { title: "Poulailler", meta: "bois,PVC, 2021", desc: "Petit poulailler en mode recup, avec acces facile pour nettoyage et recuperation des oeufs", photos: ["images/poulailler01.png","images/poulailler02.png","images/poulailler03.png"] }, 
   { title: "Manche de Couteau", meta: "bois/metal, 2026", desc: "forge d'un couteau et creation du manche en bois d'olivier", photos: ["images/couteau01.jpg", "images/couteau02.jpg"] }, 
   { title: "jouet Poussette", meta: "bois/tissus, 2014", desc: "Creation d'une poussette a doudous, normalement les peluches...", photos: ["images/poussette02.png", "images/poussette03.png", "images/poussette01.png"] }, 
+  { title: "Amenagement Diverse", meta: "bois", desc: "Divers aménagements: entrée tablette, etagère Salle de bain, étagere, cadre porte guitare, assises brasero et terrain de petanque, tablette WC...", photos: ["images/amenagement01.jpg", "images/amenagement02.jpg", "images/amenagement03.jpg", "images/amenagement04.jpg", "images/amenagement05.jpg", "images/amenagement06.jpg", "images/amenagement07.jpg"] }, 
 ];
 /* ====== fin de la zone à modifier ====== */
 
