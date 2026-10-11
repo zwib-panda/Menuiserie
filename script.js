@@ -11,7 +11,7 @@ const SITE = {
    n'existe pas, un cadre gris s'affiche à la place. */
 const PIECES = [
   { title: "table de salon",  meta: "Bois (plancher recuperé dans une grange) / métal, 2014", desc: "table a manger 2mx1m", photos: ["images/table01.png","images/table02.png","images/table03.png"] },
-  { title: "luminaire Nuage",  meta: "Bois, 2015", desc: "Petit luminaire decoratif", photos: ["images/02-a.jpg", "images/02-b.jpg"] },
+  { title: "luminaire Nuage",  meta: "Bois, 2015", desc: "Petit luminaire decoratif", photos: ["images/nuage01.jpg", "images/nuage02.jpg"] },
   { title: "Bureau",  meta: "Contreplaqué, 2022", desc: "Bureau avec casiers de rangement et cache pour cable ordinateur, sans clou ni vis", photos: ["images/03-a.jpg", "images/03-b.jpg"] },
   { title: "Table Basse",  meta: "Palette, 2021", desc: "juste de la recup.", photos: ["images/04-a.jpg", "images/04-b.jpg"] },
   { title: "lit cabane",  meta: "Bois, 2015", desc: "Lit double sur cabane pour les enfants", photos: ["images/lit_01.png", "images/lit_02.png"] },
