@@ -23,6 +23,7 @@ const PIECES = [
   { title: "Tables de chevet", meta: "bois, 2021", desc: "petites table de chevet dans une ambiance zen", photos: ["images/chevet01.jpg", "images/chevet02.jpg", "images/chevet03.jpg"] }, 
   { title: "Porte Coulissante", meta: "bois, 2021", desc: "Creation d une porte coulissante legere style grange pour une chambre", photos: ["images/porte01.png"] }, 
   { title: "Ikea Hack", meta: "bois/cannage, 2021", desc: "Modification de portes ikea pour decoration en cannage", photos: ["images/canage01.png"] }, 
+  { title: "Cuisine",  meta: "Bois, 2011", desc: "Conception et réalisation d'une cuisine, avec grand plan de travail en bambou", photos: ["images/cuisineVille01.jpg","images/cuisineVille02.jpg"] },
   { title: "Poulailler", meta: "bois,PVC, 2021", desc: "Petit poulailler en mode recup, avec acces facile pour nettoyage et recuperation des oeufs", photos: ["images/poulailler01.jpg","images/poulailler02.jpg"] }, 
   { title: "Manche de Couteau", meta: "bois/metal, 2026", desc: "forge d'un couteau et creation du manche en bois d'olivier", photos: ["images/couteau01.jpg", "images/couteau02.jpg"] }, 
   { title: "jouet Poussette", meta: "bois/tissus, 2014", desc: "Creation d'une poussette à doudous, normalement les peluches...", photos: ["images/poussette02.png", "images/poussette03.png", "images/poussette01.png"] }, 
