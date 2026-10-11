@@ -23,7 +23,7 @@ const PIECES = [
   { title: "Tables de chevet", meta: "bois, 2021", desc: "petites table de chevet dans une ambiance zen", photos: ["images/chevet01.jpg", "images/chevet02.jpg", "images/chevet03.jpg"] }, 
   { title: "Porte Coulissante", meta: "bois, 2021", desc: "Creation d une porte coulissante legere style grange pour une chambre", photos: ["images/porte01.png"] }, 
   { title: "Ikea Hack", meta: "bois/canage, 2021", desc: "Modification de portes ikea pour decoration en cannage", photos: ["images/canage01.png"] }, 
-  { title: "Poulailler", meta: "bois,PVC, 2021", desc: "Petit poulailler en mode recup, avec acces facile pour nettoyage et recuperation des oeufs", photos: ["images/poulailler01.png","images/poulailler02.png"] }, 
+  { title: "Poulailler", meta: "bois,PVC, 2021", desc: "Petit poulailler en mode recup, avec acces facile pour nettoyage et recuperation des oeufs", photos: ["images/poulailler01.jpg","images/poulailler02.jpg"] }, 
   { title: "Manche de Couteau", meta: "bois/metal, 2026", desc: "forge d'un couteau et creation du manche en bois d'olivier", photos: ["images/couteau01.jpg", "images/couteau02.jpg"] }, 
   { title: "jouet Poussette", meta: "bois/tissus, 2014", desc: "Creation d'une poussette a doudous, normalement les peluches...", photos: ["images/poussette02.png", "images/poussette03.png", "images/poussette01.png"] }, 
   { title: "Amenagement Diverse", meta: "bois", desc: "Divers aménagements: entrée tablette, etagère Salle de bain, étagere, cadre porte guitare, assises brasero et terrain de petanque, tablette WC...", photos: ["images/amenagement01.jpg", "images/amenagement02.jpg", "images/amenagement03.jpg", "images/amenagement04.jpg", "images/amenagement05.jpg", "images/amenagement06.jpg"] }, 
