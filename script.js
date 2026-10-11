@@ -75,7 +75,7 @@ function route() {
   $("v-meta").textContent = p.meta;
   $("v-desc").textContent = p.desc;
   const box = $("photos");
-  box.replaceChildren(...p.photos.slice(0, 2).map(s => frame(s, p.title)));
+  box.replaceChildren(...p.photos.map(s => frame(s, p.title)));
   const total = PIECES.length;
   $("prev").href = "#" + (n === 1 ? total : n - 1);
   $("next").href = "#" + (n === total ? 1 : n + 1);
