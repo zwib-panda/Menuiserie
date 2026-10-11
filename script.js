@@ -152,3 +152,4 @@ zoom.addEventListener("pointermove", e => {
 zoom.addEventListener("dblclick", e => { if (e.target === zimg) zoomAt(e.clientX, e.clientY, sc > 1 ? 1 : 2.5); });
 zoom.addEventListener("click", e => { if (e.target !== zimg && travel < 6) closeZoom(); });
 addEventListener("keydown", e => { if (!zoom.hidden && e.key === "Escape") closeZoom(); });
+$("zoom-close").addEventListener("click", closeZoom);
