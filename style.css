@@ -44,3 +44,6 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .zoom-close{position:absolute;top:16px;right:16px;z-index:1;background:none;border:1px solid rgba(255,255,255,.4);color:#fff;font:inherit;padding:6px 14px;cursor:pointer}
 .zoom-close:hover{border-color:#fff}
 .zoom-close{touch-action:manipulation;padding:10px 18px}
+.photos .frame{aspect-ratio:auto;display:block;background:none}
+.photos .frame img{height:auto;object-fit:initial}
+.photos .frame:not(:has(img)){aspect-ratio:4/3;display:grid;background:var(--ph)}
